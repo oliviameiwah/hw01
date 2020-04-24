@@ -1,0 +1,68 @@
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: 'Kreon', serif;
+  font-weight: 300;
+  margin: 0;
+}
+img {
+  width: 300px;
+}
+header {
+  background: #000000;
+  color: #FFFFFF;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.divider > section {
+  border-bottom: 3px #90F6F7;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+.SM {
+  background: #90F6F7;
+}
+
+.Other {
+  background: #D8EBEB;
+}
+.School {
+  background: #BDF1D4;
+}
+footer {
+  background: #FFFFFF;
+  color: #000000;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
